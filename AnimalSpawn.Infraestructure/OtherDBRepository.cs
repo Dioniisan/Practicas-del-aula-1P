@@ -20,8 +20,8 @@ namespace AnimalSpawn.Infraestructure
                 Description = $"Description of animal-{index} in other database",
                 EstimatedAge = (int)Math.Truncate(DateTime.Now.Minute * 2.5),
                 Gender = index % 2 == 0,
-                Height = Math.Round(DateTime.Now.Minute * 1.25, 2),
-                Weight = Math.Round(DateTime.Now.Minute * 0.15, 2)
+                Height = (float?)Math.Round(DateTime.Now.Minute * 1.25, 2),
+                Weight = (float?)Math.Round(DateTime.Now.Minute * 0.15, 2)
 
             });
 

@@ -1,6 +1,7 @@
 using AnimalSpawn.Domain.Interfaces;
 using AnimalSpawn.Infraestructure;
 using AnimalSpawn.Infraestructure.Data;
+//using AnimalSpawn.Infraestructure.Data;
 using AnimalSpawn.Infraestructure.Repositories;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -27,7 +28,7 @@ namespace AnimalSpawn.Api
 
             services.AddControllers();
 
-            //services.AddTransient<IAnimalRepository, AnimalRepository>();
+            services.AddTransient<IAnimalRepository, AnimalRepository>();
 
             services.AddTransient<IAnimalRepository, OtherDBRepository>();
         }

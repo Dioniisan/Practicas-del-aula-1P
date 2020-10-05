@@ -1,5 +1,4 @@
-﻿using AnimalSpawn.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
 namespace AnimalSpawn.Domain.Entities

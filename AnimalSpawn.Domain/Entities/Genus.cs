@@ -1,8 +1,7 @@
-﻿using AnimalSpawn.Domain.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace AnimalSpawn.Api.Data
+namespace AnimalSpawn.Domain.Entities
 {
     public partial class Genus
     {
