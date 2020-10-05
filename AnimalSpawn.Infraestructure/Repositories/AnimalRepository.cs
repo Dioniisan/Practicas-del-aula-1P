@@ -18,9 +18,20 @@ namespace AnimalSpawn.Infraestructure.Repositories
             this._context = context;
         }
 
-    public async Task<IEnumerable<Animal>> GetAnimals()
-    {
+        public async Task<Animal> GetAnimal(int id)
+        {
+            return await _context.Animal.SingleOrDefaultAsync(animal=>animal.Id==id) ?? new Animal();
+        }
+
+        public async Task<IEnumerable<Animal>> GetAnimals()
+        {
             return await _context.Animal.ToListAsync();
+        }
+        public async Task AddAnimal(Animal animal)
+        {
+            _context.Animal.Add(animal);
+            await _context.SaveChangesAsync();
+        }
+
     }
-}
 }

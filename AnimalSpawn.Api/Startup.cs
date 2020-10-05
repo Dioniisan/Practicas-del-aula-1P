@@ -30,7 +30,7 @@ namespace AnimalSpawn.Api
 
             services.AddTransient<IAnimalRepository, AnimalRepository>();
 
-            services.AddTransient<IAnimalRepository, OtherDBRepository>();
+            //services.AddTransient<IAnimalRepository, OtherDBRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
