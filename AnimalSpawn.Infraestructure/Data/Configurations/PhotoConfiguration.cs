@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class PhotoConfiguration : IEntityTypeConfiguration<Photo>
+   public class PhotoConfiguration : IEntityTypeConfiguration<Photo>
     {
         public void Configure(EntityTypeBuilder<Photo> builder)
         {

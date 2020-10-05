@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class CountryConfiguration : IEntityTypeConfiguration<Country>
+    public class CountryConfiguration : IEntityTypeConfiguration<Country>
     {
         public void Configure(EntityTypeBuilder<Country> builder)
         {

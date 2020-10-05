@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class UserAccountConfiguration : IEntityTypeConfiguration<UserAccount>
+    public class UserAccountConfiguration : IEntityTypeConfiguration<UserAccount>
     {
         public void Configure(EntityTypeBuilder<UserAccount> builder)
         {

@@ -61,5 +61,11 @@ C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\unix\
 C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\obj\Debug\netcoreapp3.1\AnimalSpawn.Api.csproj.CoreCompileInputs.cache
 C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\obj\Debug\netcoreapp3.1\AnimalSpawn.Api.MvcApplicationPartsAssemblyInfo.cache
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Api\obj\Debug\netcoreapp3.1\AnimalSpawn.Api.MvcApplicationPartsAssemblyInfo.cs

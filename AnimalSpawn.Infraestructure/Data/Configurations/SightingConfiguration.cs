@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class SightingConfiguration : IEntityTypeConfiguration<Sighting>
+    public class SightingConfiguration : IEntityTypeConfiguration<Sighting>
     {
         public void Configure(EntityTypeBuilder<Sighting> builder)
         {

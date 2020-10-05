@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class GenusConfiguration : IEntityTypeConfiguration<Genus>
+    public class GenusConfiguration : IEntityTypeConfiguration<Genus>
     {
         public void Configure(EntityTypeBuilder<Genus> builder)
         {

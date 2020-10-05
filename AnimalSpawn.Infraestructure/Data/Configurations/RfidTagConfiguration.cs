@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class RfidTagConfiguration : IEntityTypeConfiguration<RfidTag>
+    public class RfidTagConfiguration : IEntityTypeConfiguration<RfidTag>
     {
         public void Configure(EntityTypeBuilder<RfidTag> builder)
         {

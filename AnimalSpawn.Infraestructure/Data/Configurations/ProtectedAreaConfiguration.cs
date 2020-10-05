@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace AnimalSpawn.Infraestructure.Data.Configurations
 {
-    class ProtectedAreaConfiguration : IEntityTypeConfiguration<ProtectedArea>
+    public class ProtectedAreaConfiguration : IEntityTypeConfiguration<ProtectedArea>
     {
         public void Configure(EntityTypeBuilder<ProtectedArea> builder)
         {
