@@ -1,0 +1,15 @@
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.deps.json
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.pdb
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Domain.pdb
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.csprojAssemblyReference.cache
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.AssemblyInfoInputs.cache
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.AssemblyInfo.cs
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.csproj.CopyComplete
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.dll
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.pdb
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.runtimeconfig.json
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\bin\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.runtimeconfig.dev.json
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Home\Curso\AnimalSpawn\AnimalSpawn.Infraestructure\obj\Debug\netcoreapp3.1\AnimalSpawn.Infraestructure.genruntimeconfig.cache
