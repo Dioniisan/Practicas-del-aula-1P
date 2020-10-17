@@ -1,3 +1,4 @@
+using AnimalSpawn.Application.Services;
 using AnimalSpawn.Domain.Interfaces;
 using AnimalSpawn.Infraestructure;
 using AnimalSpawn.Infraestructure.Data;
@@ -35,7 +36,7 @@ namespace AnimalSpawn.Api
 
             services.AddTransient<IAnimalRepository, AnimalRepository>();
 
-            services.AddTransient<IAnimalRepository, OtherDBRepository>();
+            services.AddTransient<IAnimalService, AnimalService>();
 
             services.AddMvc().AddFluentValidation(options => options.RegisterValidatorsFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
         }

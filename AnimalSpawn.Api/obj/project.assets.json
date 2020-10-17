@@ -1542,6 +1542,19 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "AnimalSpawn.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "AnimalSpawn.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AnimalSpawn.Application.dll": {}
+        }
+      },
       "AnimalSpawn.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -5801,6 +5814,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "AnimalSpawn.Application/1.0.0": {
+      "type": "project",
+      "path": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj",
+      "msbuildProject": "../AnimalSpawn.Application/AnimalSpawn.Application.csproj"
+    },
     "AnimalSpawn.Domain/1.0.0": {
       "type": "project",
       "path": "../AnimalSpawn.Domain/AnimalSpawn.Domain.csproj",
@@ -5814,6 +5832,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AnimalSpawn.Application >= 1.0.0",
       "AnimalSpawn.Domain >= 1.0.0",
       "AnimalSpawn.Infraestructure >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.0.1",
@@ -5853,6 +5872,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "C:\\Home\\Curso\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj": {
+              "projectPath": "C:\\Home\\Curso\\AnimalSpawn\\AnimalSpawn.Application\\AnimalSpawn.Application.csproj"
+            },
             "C:\\Home\\Curso\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj": {
               "projectPath": "C:\\Home\\Curso\\AnimalSpawn\\AnimalSpawn.Domain\\AnimalSpawn.Domain.csproj"
             },
